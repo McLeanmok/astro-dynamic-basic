@@ -1,0 +1,12 @@
+---
+import Thought from './thouht.astro';
+import thoughts from "../data/thoughts.json"
+---
+<ul class="thought-loop">
+    {thoughts.map((thought) => <Thought thought={thought}/>)}
+
+</ul>
+
+<style>
+ 
+</style>

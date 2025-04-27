@@ -1,0 +1,8 @@
+---
+import genres from "../../data/genres.json";
+import Genre from "./genre.astro"
+---
+
+<ul class="genres-loop">
+    {genres.map((genre) => <Genre genre={genre} />)}
+</ul>

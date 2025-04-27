@@ -1,0 +1,16 @@
+---
+import MainTemplate from "../templates/main-template.astro";
+import Hero from "../components/hero/index.astro";
+import GenreLoop from "../components/genre-loop/index.astro";
+---
+
+<MainTemplate title="About" description="More data Content">
+<Hero title="About my Eloquent Dynamic Website" body="Another Dynamic Example" />
+
+<section class="genres">
+    <div class="container">
+        <h2 class="genres__title">My Favorite Musical Genres</h2>
+        <GenreLoop />
+    </div>
+</section>
+</MainTemplate>

@@ -1,0 +1,5 @@
+---
+import navdatajson from "../../data/nav.json";
+const { navdata } = Astro.props;
+---
+<a href={navdata.url}>{navdata.name}</a>

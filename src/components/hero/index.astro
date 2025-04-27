@@ -1,0 +1,41 @@
+---
+const { title, body } = Astro.props;
+interface Props {
+    title: string;
+    body: string;
+}
+---
+
+<section class="hero">
+    <div class="container">
+        <h1 class="hero__title">{title}</h1>
+        <p class="hero__body">{body}</p>
+    </div>
+
+</section>
+
+<style is:global>
+ 
+ /* Hero container styling */
+ .hero {
+    color: var(--white);
+    background-color: var(--primary-400__sat-300);
+    padding: calc(var(--section-padding-lg)* 3);
+ }
+
+.hero > .container {
+    display: grid;
+    gap: var(--content-gap);
+}
+
+/* Formatting text */
+.hero__title , .hero__body {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .hero__title, .hero__body {
+        text-align: left;
+    }
+}
+</style>

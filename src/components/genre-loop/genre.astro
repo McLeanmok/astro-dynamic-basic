@@ -1,0 +1,10 @@
+---
+import genreData from '../../data/genres.json';
+const { genre } = Astro.props;
+
+---
+
+<li class="genre">
+    <h3 class="article-title">{genre.name}</h3>
+    <p class="genre__body">{genre.body}</p>
+</li>

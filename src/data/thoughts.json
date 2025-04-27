@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Lost Together should be the National Anthem of Canada",
+        "body": "Blue Rodeo's smash hit Lost Together is a song with an eloquent melody, and it captuures what it means to be a Canadian. It is a song about unity, and it is a song about love. It is a song that brings people together, and it is a song that makes you feel good. It is a song that should be the National Anthem of Canada.",
+        "meta": {
+        "date": "April 1, 2023",
+        "author":"Mclean Mylymok",
+        "tags": ["music", "canadian", "blue rodeo", "lost together"],
+        "image": "/images/lost-together.jpg",
+        "imageAlt": "Blue Rodeo - Lost Together"
+        }
+    },
+    {
+        "name":  "Why The Jayhawks are the best band in the world",
+        "body": "The Jayhawks has this sound similar to Blue Rodeo, with gutars, mandolins, and fiddle. They are really good at harmonizing, and they have a shit ton of great songs. They are really good at making music, and they are really good at making music that is good for you to listen to. They are really good at making music that is good for you to listen to.",
+        "meta": {
+        "date": "April 1, 2024",
+        "author":"Mclean Mylymok",
+        "tags": ["Jayhawks", "music", "Alt Country"],
+        "image": "/images/jayhawks.jpg",
+        "imageAlt": "The Jayhawks"
+        }
+    },
+    {
+        "name": " Jack Johnson is So Underrated",
+        "body": "I might be a shade biased, but objectively, Jack Johnson produces good music. His guitar, combined with the comfortable nature of his music makes him my favorite artist ever. He is an underrated artist. I don't hear anyone talk about this artist, and I don't think it's because he's underrated. I think it's because he's underrated. He's underrated.",
+        "meta": {
+            "date":"April 1, 2025",
+            "author":"Mclean Mylymok",
+            "tags": ["Jack Johnson", "music", "underrated"],
+            "image": "/images/jack-johnson.jpg",
+            "imageAlt": "Jack Johnson"
+        }
+    }
+]

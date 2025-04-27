@@ -1,0 +1,35 @@
+---
+import BlankTemplate from "../templates/blank-template.astro";
+---
+
+<BlankTemplate title="404" description="Page Not Found">
+    <section class="not-found">
+        <div class="container">
+            <h1 class="not-found__title">Sorry Buddy</h1>
+            <p class="not-found__description">This piece of content doesn't exist yet. If you are having trouble, you may have typed in the wrong URL, or it simply doesn't exist.</p>
+        </div>
+    </section>
+
+    <style is:global>
+        .not-found {
+            background-color: var(--primary-100);
+            color: var(--white);
+            height: 100vh;
+
+        }
+        .not-found > .container {
+            display: flex;
+            gap: var(--gap-lg);
+            flex-direction: column;
+            justify-content: center;
+        }
+            .not-found__title {
+            font-size: var(--fs-h1);
+        }
+        .not-found__description {
+            margin: auto;
+        }
+
+
+    </style>
+</BlankTemplate>

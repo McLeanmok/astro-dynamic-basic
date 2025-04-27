@@ -1,0 +1,17 @@
+---
+import thoughtsData  from "../data/thoughts.json"
+const { thought } = Astro.props;
+---
+<li class="thought">
+    <h3 class="thought__title">{thought.name}</h3>
+    <figure class="thought__thumb">
+        <img src={thought.meta.image} alt={thought.meta.imageAlt} class="thought__thumbnail" title={thought.meta.imageAlt}>
+    </figure>
+    <p class="thought__body">{thought.body}</p>
+
+    <aside class="thought__meta">
+        <p class="thought__date">{thought.meta.date}</p>
+        <p class="thought__author">Eloquently written by {thought.meta.author}</p>
+        <p class="thought__tags"> <span>Tags: </span>{thought.meta.tags.join(', ').toUpperCase()}</p>
+    </aside>
+</li>

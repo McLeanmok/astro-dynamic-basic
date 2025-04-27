@@ -1,0 +1,50 @@
+---
+import Nav from './nav.astro';
+---
+
+<header class="site-header">
+    <div class="container">
+        <div class="site-header__content">
+            <figure class="site-header__brand">
+                <img src="/images/logo.svg" alt="A placeholder logo ">
+            </figure>
+        <Nav />
+        </div>
+    </div>
+</header>
+
+<style is:global>
+    .site-header {
+        background-color: var(--primary-section-bg-light);
+        color: var(--white);
+        padding: var(--section-padding-sm);
+    }
+
+    .site-header__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .site-header__brand {
+        scale: 50%;
+    }
+
+    .site-header__brand img {
+        width: 100%;
+        height: auto;
+    }
+
+    .site-header__link-list {
+        background-color: var(--danger-base);
+        display: flex;
+        gap: var(--gap-sm);
+
+        list-style: none;
+    }
+    .site-header__link-list a {
+        padding: 0.5em;
+    }
+    .site-header__link-list a[aria-current] {
+        font-weight: var(--fw-700);
+}
+</style>
