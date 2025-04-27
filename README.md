@@ -1,7 +1,9 @@
 # Simple Dynamic Site using Astro
+[View this lab online](https://680ec2486527a20885b75cf2--basic-dynamic.netlify.app/)
+--
 This lab is my demonstration of how I can loop through data from a JSON file. 
 
-I tried to keep the styling of the project very basic, because I wanted to focus more on the dynamic aspects of this site. I used [ChampCSS](https:// champcss.com), and I did some basic theming to get away from the defaults, but for the majority, it's definitely not a design project. This lab was mostly about getting dynamic content on the page.
+I tried to keep the styling of the project very basic, because I wanted to focus more on the dynamic aspects of this site. I used [ChampCss](https://champcss.com), and I did some basic theming to get away from the defaults, but for the majority, it's definitely not a design project. This lab was mostly about getting dynamic content on the page.
 
 
 
